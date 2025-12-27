@@ -1,14 +1,14 @@
-name: Keep Render Active
+# name: Keep Render Active
 
-on:
-  schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '*/10 * * * *'
+#   workflow_dispatch:
 
-jobs:
-  ping:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Ping Render Service
-        run: |
-          curl -I https://riyajiya.onrender.com/
+# jobs:
+#   ping:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Ping Render Service
+#         run: |
+#           curl -I https://riyajiya.onrender.com/
