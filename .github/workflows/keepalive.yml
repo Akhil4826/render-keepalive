@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Ping Render Service
         run: |
-          curl -I https://akhil4826.github.io/akhilteotia/
+          curl -I https://bulk-pdf-1.onrender.com/
